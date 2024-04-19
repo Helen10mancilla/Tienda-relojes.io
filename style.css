@@ -1,0 +1,97 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#productos {
+    background-color: #F5DEB3;
+}
+
+.producto {
+    border: 1px solid #8B4513;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contacto {
+    background-color: #CD853F;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A0522D;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.redes-sociales a {
+    margin: 0 10px; /* Ajusta el margen entre los iconos según lo necesites */
+}
+
+.redes-sociales img {
+    width: 40px; /* Ajusta el tamaño de los iconos según lo necesites */
+    height: 40px;
+}
+
+
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
